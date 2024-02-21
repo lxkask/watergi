@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from "../../components/navbar";
 
 const KdeJeProblem = () => {
   return (
     <div>
-    <Navbar />
       <div className="container mx-auto">
         {/* Obsah stránky "Co děláme" */}
         <h1 className="text-2xl font-bold mt-8">Kde je problém</h1>

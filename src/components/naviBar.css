@@ -1,0 +1,15 @@
+.dot {
+    color: blue;
+}
+
+.navbar-text {
+    background: rgb(98,49,158);
+    background: linear-gradient(90deg, rgba(98,49,158,1) 0%, rgba(157,129,241,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.join-btn {
+    background-color: #7047eb!important;
+    color: white!important;
+}
