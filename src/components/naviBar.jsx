@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button'
+import logo from '../img/watergi-logo.png'
 
 const NaviBar = () => {
   return (
@@ -40,7 +41,7 @@ const NaviBar = () => {
           <Container>
             <Navbar.Brand href="#home">
               <Link className='' to="/">
-                <img src="/path/to/logo.png" alt="Logo" className="h-10"/>
+                <img src={logo} alt="Logo" className="h-12"/>
               </Link>
             </Navbar.Brand>
             <Button as='a' className='rounded-5 ms-auto me-1 d-lg-none join-btn'>PŘIDEJTE SE K NÁM</Button>
@@ -57,7 +58,7 @@ const NaviBar = () => {
               </Nav>
             </Navbar.Collapse>
             <Navbar.Text className='d-none d-lg-block'>
-                <Button as='a' className='rounded-5 join-btn'>PŘIDEJTE SE K NÁM</Button>
+                <a className='rounded-5 p-2 join-btn'><span className='button-text'>PŘIDEJTE SE K NÁM</span></a>
             </Navbar.Text>
           </Container>
       </Navbar>

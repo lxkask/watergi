@@ -10,6 +10,12 @@
 }
 
 .join-btn {
-    background-color: #7047eb!important;
-    color: white!important;
+   color: white;
+   background: rgb(157,129,241);
+   background: linear-gradient(90deg, rgba(157,129,241,1) 0%, rgba(157,77,255,1) 100%);
+}
+
+.button-text {
+    background-color: white;
+    -webkit-background-clip: text;
 }
