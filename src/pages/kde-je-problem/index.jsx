@@ -1,7 +1,7 @@
 import React from 'react';  
-import ocean from '../../assets/ocean.png';
-import beach from '../../assets/beach.png';
-import beach2 from '../../assets/beach2.png';
+import ocean from '../../img/ocean.png';
+import beach from '../../img/beach.png';
+import beach2 from '../../img/beach2.png';
 
 const KdeJeProblem = () => {
   return (
