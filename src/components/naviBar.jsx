@@ -58,7 +58,7 @@ const NaviBar = () => {
               </Nav>
             </Navbar.Collapse>
             <Navbar.Text className='d-none d-lg-block'>
-                <a className='rounded-5 p-2 join-btn'><span className='button-text'>PŘIDEJTE SE K NÁM</span></a>
+                <a className='rounded-5 p-2 join-btn'><span className='button-text'>E-SHOP</span></a>
             </Navbar.Text>
           </Container>
       </Navbar>

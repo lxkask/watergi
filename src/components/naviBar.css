@@ -11,11 +11,12 @@
 
 .join-btn {
    color: white;
-   background: rgb(157,129,241);
-   background: linear-gradient(90deg, rgba(157,129,241,1) 0%, rgba(157,77,255,1) 100%);
+   background: #7844ec;
 }
 
 .button-text {
     background-color: white;
+    font-weight: 600;
+    padding: 2rem;
     -webkit-background-clip: text;
 }
