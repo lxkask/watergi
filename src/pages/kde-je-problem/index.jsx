@@ -7,10 +7,9 @@ import ocean from '../../img/ocean.png';
 import beach from '../../img/beach.png';
 import beach2 from '../../img/beach2-darker.png';
 
-const NaseReseni = () => {
+const KdeJeProblem = () => {
   return (
     <div>
-      <h1> Tohle je nase reseni, tu se resi jak neco resit</h1>
       <Container fluid>
         <Row className='d-flex justify-content-center flex-row align-items-center'>
           {/* 1min a flaska dsektop vedle sebe */}
@@ -82,4 +81,4 @@ const NaseReseni = () => {
   );
 };
 
-export default NaseReseni;
+export default KdeJeProblem;
