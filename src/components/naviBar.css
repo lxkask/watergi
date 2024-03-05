@@ -13,9 +13,20 @@
    color: white;
    background: rgb(157,129,241);
    background: linear-gradient(90deg, rgba(157,129,241,1) 0%, rgba(157,77,255,1) 100%);
+   cursor: pointer;
 }
 
 .button-text {
     background-color: white;
     -webkit-background-clip: text;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.join-btn:hover {
+    background:  rgb(160, 82, 255);
 }
