@@ -6,6 +6,7 @@ import Kontakt from './pages/kontakt';
 import NaseReseni from './pages/nase-reseni/index';
 import PridejSeKNam from './pages/pridej-se-k-nam';
 import NaviBar from './components/naviBar';
+import Footer from './components/footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,6 +25,7 @@ const App = () => {
             <Route path='/pridej-se-k-nam' element={<PridejSeKNam />} />
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );

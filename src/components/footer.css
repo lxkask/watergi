@@ -1,0 +1,12 @@
+img {
+    scale: 1;
+    width: 30px;
+    opacity: 1;
+    
+}
+
+#icon-background {
+    padding: 7px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Průhledné bílé pozadí */
+}

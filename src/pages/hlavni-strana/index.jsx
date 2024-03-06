@@ -55,7 +55,7 @@ const HlavniStrana = () => {
           <Col className='flex bg-cover w-screen h-96 items-center justify-center text-center text-white pt-20' style={{ backgroundImage: `url(${beach2})` }}>
             <div className='flex flex-col items-center'>
               <h2 className='font-bold text-5xl '>JEDNORÁZOVÉ PLASTY <br />NEJSOU BUDOUCNOST</h2>
-              <button className='bg-button text-white font-bold text-2xl mt-20 py-2 px-2 rounded-full w-72'>PŘIDEJ SE K NÁM</button>
+              <button className='bg-button text-white font-bold text-2xl mt-20 py-2 px-2 rounded-full w-72 mb-md-0 mb-5'>PŘIDEJ SE K NÁM</button>
             </div>
           </Col>
         </Row>
