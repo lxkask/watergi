@@ -12,12 +12,12 @@
 
 .join-btn {
    color: white;
-   background: rgb(157,129,241);
-   background: linear-gradient(90deg, rgba(157,129,241,1) 0%, rgba(157,77,255,1) 100%);
+   background: #7844ec;
    cursor: pointer;
 }
 
 .button-text {
+    font-weight: 600;
     background-color: white;
     -webkit-background-clip: text;
     -webkit-touch-callout: none;
@@ -26,8 +26,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    padding: 1rem;
 }
 
 .join-btn:hover {
-    background:  rgb(160, 82, 255);
+    background:  #6034ec;
 }
